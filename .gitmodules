@@ -1,0 +1,6 @@
+[submodule "shop-demo-mobile"]
+	path = shop-demo-mobile
+	url = https://github.com/LucasTravessa/shop-demo-mobile.git
+[submodule "shop-demo-back"]
+	path = shop-demo-back
+	url = https://github.com/LucasTravessa/shop-demo-back.git
