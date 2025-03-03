@@ -36,7 +36,7 @@ The back-end is built using NestJS, a progressive Node.js framework for building
 - Editor of your choice
 - Git
 
-## Quick start
+## Instalation
 
 Clone the repo to your machine:
 
@@ -56,3 +56,19 @@ git pull --recurse-submodules
 To install and run the back-end, please refer to the [shop-demo-back README](./shop-demo-back/README.md).
 
 To install and run the mobile app, please refer to the [shop-demo-mobile README](./shop-demo-mobile/README.md).
+
+### Update submodules
+
+To update submodules to the latest commit from the remote repository and merge the changes, use the following command:
+
+```bash
+git submodule update --remote --merge
+```
+
+After updating the submodules, you can commit the changes as usual:
+
+```bash
+git add .
+git commit -m "Update submodules to the latest commit"
+git push
+```
