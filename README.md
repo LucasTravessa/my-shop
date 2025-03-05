@@ -47,6 +47,14 @@ git clone --recurse-submodules https://github.com/LucasTravessa/my-shop.git
 git config submodule.recurse true
 ```
 
+If you forgot to clone with the recurse-submodules, use the following commands to fetch all the data from the projects:
+
+```bash
+git submodule init
+
+git submodule update
+```
+
 To pull updates from remote repositories with submodules, use the following command:
 
 ```bash
